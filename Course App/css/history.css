@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&display=swap');
+
+.button {
+    background: #3D94F6;
+    background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 14px;
+    color: #FFFFFF;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 16px;
+    font-weight: 100;
+    padding: 7px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 4px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 6px;
+}
+
+.button:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.button:active {
+    position: relative;
+    top: 1px;
+}
+
+.myButton {
+    box-shadow: 0px 10px 14px -7px #276873;
+    background-color: #007dab;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 16px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #3d768a;
+    margin: auto;
+    margin-top: 16px;
+
+}
+
+.myButton:hover {
+    background-color: #408c99;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.siteName {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.navName {
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.d-flex a {
+    margin: 5px;
+}
+
+.d-flex input {
+    border-radius: 16px;
+}
+
+.courseBought {
+    display: flex;
+}
+
+.card {
+    margin: 12px;
+}
+.card:hover {
+    -webkit-animation-name: card;
+    animation-name: card;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  
+}
+
+.card-title {
+    font-size: 26px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    ;
+}
+
+@keyframes card {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+    50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 115, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+hr {
+    height: 2px;
+    width: 80rem;
+    margin: auto;
+}
+
+h3 {
+    color: #FFFFFF;
+    margin-left: 12px;
+}

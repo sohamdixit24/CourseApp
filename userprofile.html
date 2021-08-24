@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&display=swap');
+
+        .button {
+            background: #3D94F6;
+            background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+            background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+            background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+            background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+            background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 14px;
+            color: #FFFFFF;
+            font-family: 'Baloo Bhaina 2', cursive;
+            font-size: 16px;
+            font-weight: 100;
+            padding: 7px;
+            -webkit-box-shadow: 1px 1px 20px 0 #000000;
+            -moz-box-shadow: 1px 1px 20px 0 #000000;
+            box-shadow: 1px 1px 4px 0 #000000;
+            text-shadow: 1px 1px 20px #000000;
+            border: solid #337FED 1px;
+            text-decoration: none;
+            display: inline-block;
+            cursor: pointer;
+            text-align: center;
+            margin: 6px;
+        }
+
+        .button:hover {
+            border: solid #337FED 1px;
+            background: #1E62D0;
+            background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+            background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+            background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+            background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+            background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+
+        .button:active {
+            position: relative;
+            top: 1px;
+        }
+
+        .siteName {
+            font-size: 30px;
+            font-weight: 400;
+            font-family: 'Roboto Slab', serif;
+
+        }
+
+        .navName {
+            font-size: 19px;
+            font-weight: 400;
+            font-family: 'Roboto Slab', serif;
+
+        }
+
+        .d-flex a {
+            margin: 5px;
+        }
+
+        .d-flex input {
+            border-radius: 16px;
+        }
+
+        body {
+            background: rgb(2, 0, 36);
+            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 115, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container-fluid">
+            <a class="navbar-brand siteName" href="#">CourseApp</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active navName" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navName" href="#">About Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="button btn-outline-success" type="submit">Search</button>
+                    <a class="btn btn-secondary" href="login.html" role="button">Logout</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="userprofile">
+
+    </div>
+
+</body>
+
+</html>

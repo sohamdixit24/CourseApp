@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+
+.logoutbox {
+    /* border: 2px solid red; */
+    border-radius: 22px;
+    display: flex;
+    position: relative;
+    margin: auto;
+    margin-top: 38px;
+    padding: 16px;
+    width: max-content;
+    box-shadow: 1px 8px 19px 6px rgba(80, 76, 76, 0.51);
+    background-color: #ffffff;
+
+
+}
+
+.logoimage {
+    /* border: 2px solid black; */
+    display: inline-block;
+    padding: 59px;
+    margin: auto;
+
+}
+
+.logout {
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 0.2rem;
+
+}
+
+.button {
+    background: #3D94F6;
+    background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 16px;
+    font-weight: 100;
+    padding: 8px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 4px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 8rem;
+}
+
+.button:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.button:active {
+    position: relative;
+    top: 1px;
+}
+
+
+.siteName {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.navName {
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+h3 {
+    display: inline;
+    margin: auto;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 30px;
+    margin-top: 6rem;
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 115, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
+
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+a:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+}
